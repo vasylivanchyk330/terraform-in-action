@@ -1,25 +1,25 @@
 variable "namespace" {
-    type = string
+  type = string
 }
 variable "vpc" {
-    type = any
+  type = any
 }
 variable "sg" {
-    type = any
+  type = any
 }
 
 variable "ssh_keypair" {
- type = string
+  type = string
 }
 
 variable "db_config" {
-    type = object(
-        {
-            user = string
-            password = string
-            database = string
-            hostname = string
-            port = string
-        }
-    )
+  type = object(
+    {
+      user     = string
+      password = string
+      database = string
+      hostname = string
+      port     = string
+    }
+  )
 }
