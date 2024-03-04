@@ -6,6 +6,10 @@ This repository contains my personal implementations of the infrastructure as co
 
 Each directory within this repository corresponds to a chapter or concept from the book. The code herein demonstrates the creation, testing, and management of infrastructure using Terraform, following the best practices and patterns discussed by the author.
 
+## Project Directory Structure 
+![Project Directory Structure](images/dir-structure.png)
+
+
 ## Getting Started
 
 ### Prerequisites
